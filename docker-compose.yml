@@ -1,5 +1,6 @@
 services:
   clawdbot-gateway:
+    build: .
     image: ${CLAWDBOT_IMAGE:-clawdbot:local}
     environment:
       HOME: /home/node
