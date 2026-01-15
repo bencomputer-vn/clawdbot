@@ -45,3 +45,7 @@ services:
     tty: true
     init: true
     entrypoint: ["node", "dist/index.js"]
+# --- ĐÂY LÀ PHẦN BẠN ĐANG THIẾU ---
+volumes:
+  clawdis_config:
+  clawdis_workspace:
